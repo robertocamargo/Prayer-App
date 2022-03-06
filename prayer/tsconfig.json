@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+     "experimentalDecorators": true,
+     "emitDecoratorMetadata": true,
+    "module": "commonjs",
+    "outDir": "./dist",
+    "rootDir": "./",
+     "baseUrl": "./src",
+     "allowJs": true,
+     "paths": {
+       "@modules/*":["modules/*"],
+       "@config/*":["config/*"],
+       "@shared/*":["shared/*"]
+     },
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+     "strictPropertyInitialization": false,
+     "useUnknownInCatchVariables": false,
+    "skipLibCheck": true
+  }
+}
