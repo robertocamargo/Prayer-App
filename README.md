@@ -3,7 +3,6 @@
 <h2>Projeto</h2>
 Esse projeto foi idealizado para postar orações.
 Qualquer pessoa pode postar oração.
-A pessoa pode optar por revelar seu nome ou não.
 O usuário, quando loga pode orar por pedidos de outras pessoas.
 
 <h2>Tecnologias</h2>
