@@ -8,7 +8,7 @@ O usuário, quando loga pode orar por pedidos de outras pessoas.
 <h2>Tecnologias</h2>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Typescript</br>
+<h3>Typescript</h3></br>
 Node.js | Express</br>
 React | React Native</br>
 Docker</br>
