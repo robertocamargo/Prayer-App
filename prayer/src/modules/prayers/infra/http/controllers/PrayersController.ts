@@ -1,6 +1,8 @@
 import { Request, Response } from 'express';
 import { parseISO } from 'date-fns';
 import { container } from 'tsyringe';
+import {getCustomRepository} from 'typeorm';
+import  PrayersRepository from '@modules/prayers/infra/typeorm/repositories/PrayersRepository';
 import CreatePrayerService from '@modules/prayers/services/CreatePrayerService';
 import ListPrayersService from '@modules/prayers/services/ListPrayersService';
 import Prayer from '../../typeorm/entities/Prayer';
@@ -11,7 +13,7 @@ export default class PrayersController {
       const { user_id, prayer_description, date } = request.body;
 
       const parsedDate = parseISO(date);
-      const prayersRepository = await getCustomRepository(PrayersRepository);
+      //const prayersRepository = await getCustomRepository(PrayersRepository);
 
       const createPrayer = container.resolve(CreatePrayerService);
 
