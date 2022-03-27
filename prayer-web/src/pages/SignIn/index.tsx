@@ -74,13 +74,11 @@ const SignIn: React.FC = () => {
             <Input
               name="email"
               icon={FiMail}
-              value="robertoassti@gmail.com"
               placeholder="E-mail"
             />
             <Input
               name="password"
               icon={FiLock}
-              value="1234"
               type="password"
               placeholder="Senha"
             />

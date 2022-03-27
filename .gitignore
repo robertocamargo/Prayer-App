@@ -1,0 +1,53 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/prayer/.vscode
+/prayer/coverage
+
+/prayer-web/node_modules
+/prayer-web/.vscode
+/prayer-web/coverage
+
+
+/.pnp
+.pnp.js
+
+# production
+/prayer/build
+
+# misc
+/prayer/.DS_Store
+/prayer/.env.local
+/prayer/.env.development.local
+/prayer/.env.test.local
+/prayer/.env.production.local
+
+/prayer-web/.DS_Store
+/prayer-web/.env.local
+/prayer-web/.env.development.local
+/prayer-web/.env.test.local
+/prayer-web/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dependencies
+/prayer/node_modules
+/prayer/node_modules/.pnp
+/prayer/node_modules.pnp.js
+
+/prayer-web/node_modules
+/prayer-web/node_modules/.pnp
+/prayer-web/node_modules.pnp.js
+
+
+# testing
+/prayer-web/coverage
+
+# production
+/prayer-web/build
+
+
+
+

@@ -12,7 +12,7 @@ export const HeaderContainer = styled.div`
   margin: 0 auto;
   display: flex;
   align-items: center;
-  > img {
+  .logo {
     height: 80px;
   }
   button {

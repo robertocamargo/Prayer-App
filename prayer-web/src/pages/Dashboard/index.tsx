@@ -75,7 +75,9 @@ const Dashboard: React.FC = () => {
     <Container>
       <Header>
         <HeaderContainer>
-          <img src={logoImg} alt="Prayer" />
+        <Link to="/create-prayer">
+          <img className="logo" src={logoImg} alt="Clique para postar um pedido de oração" />
+          </Link>
           <Profile>
             <img src={user.avatar_url} alt={user.name} />
             <div>
