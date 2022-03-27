@@ -9,11 +9,11 @@ O usuário, quando loga pode orar por pedidos de outras pessoas.
 <h2>Tecnologias</h2>
 Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-Typescript
-Node.js | Express
-React | React Native
-Docker
-PostgreSQL | TypeORM
+Typescript</br>
+Node.js | Express</br>
+React | React Native</br>
+Docker</br>
+PostgreSQL | TypeORM</br>
 
 <h2>Telas</h2>
 
